@@ -9,6 +9,34 @@
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+for index1 in ranks
+    for index2 in suits
+        puts "#{index1} of #{index2}"
+    end
+end
+
+
+#index1=0
+#index2=0
+
+#loop do
+ #   if index1 == 13
+  #      break
+   # end
+    #part1 = ranks[index1]
+    #loop do
+     #   if index2 == 4
+      #      break
+       # end 
+        #part2 = suits[index2]
+    #index2=index2+1
+    #puts 
+    #end
+    #index1=index1+1
+#end
+
+
+
 # Sample output:
 # 2 of Clubs
 # 2 of Diamonds

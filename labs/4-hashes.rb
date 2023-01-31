@@ -27,14 +27,14 @@ bitcoin = gets.chomp
 
 # 2. The value will be a string, so you'll want to convert it to a Float.
 bitcoin = bitcoin.to_f
-
+puts bitcoin
 # 3. inspect the bitcoin_data hash
 puts bitcoin_data
 
 
 # 4. store the rate in USD of bitcoin
 rate = bitcoin_data["bpi"]["USD"]["rate_float"]
-
+puts rate
 #5 calculate the value of the user's bitcpoin in USD
 value = rate * bitcoin
 puts value
